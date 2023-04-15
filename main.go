@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	qc "github.com/CodingDog-CD/sorting/quick_sort"
+	qc "github.com/CodingDog-CD/sorting/pkg/quick_sort"
 )
 
 func main() {
