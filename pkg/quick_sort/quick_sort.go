@@ -2,7 +2,7 @@
 package quick_sort
 
 // Quick sort algorithm used to sort a series of numbers.
-// Time: O(nlogn), Space: O(n)
+// Time: O(nlogn), Space: O(log(n)). Space complexity is relevant to the height of the recursion tree.
 func Sort(input []int, left_idx int, right_idx int) {
 	if left_idx < right_idx {
 		partitionIndex := partition(input, left_idx, right_idx)
